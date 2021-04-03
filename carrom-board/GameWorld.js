@@ -4,7 +4,7 @@ let queenCounter = 0;
 
 function GameWorld (){
 
-    // NEED TO LOOK THIS UP!
+    
     this.balls = CONSTANTS.ballsParams.map(params => new Ball(...params));
 
     this.blueBall = this.balls.find(ball => ball.colour === COLOUR.BLUE);
